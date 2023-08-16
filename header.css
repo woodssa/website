@@ -11,8 +11,9 @@
 .title {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: flex-start;
     margin-left: 20px;
+    margin-right: 100px;
     color: #333;
 }
 
@@ -34,10 +35,14 @@
 #navbar a {
     text-decoration: none;
     color: #333;
-    margin-left: 15px;
+    margin-left: 10px;
     font-weight: bold;
     font-size: 20px;
     transition: color 0.3s ease;
+}
+
+#navbar a:first-child {
+    margin-left: 40px;
 }
 
 #navbar a:last-child {
