@@ -1,0 +1,19 @@
+/* Navigation Bar Container */
+#navbar {
+    background-color: #333;
+}
+
+/* Navigation Links */
+#navbar a {
+    float: right;
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #333;
+    color: #FED08B;
+}

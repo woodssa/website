@@ -1,21 +1,20 @@
 document.addEventListener("DOMContentLoaded", function () {
     const navbar = document.getElementById("navbar");
 
-    const navItems = [
+    const pages = [
         { label: "Home", target: "home" },
-        { label: "About", target: "about" },
-        { label: "Services", target: "services" },
+        { label: "About Me", target: "about" },
+        { label: "Portfolio", target: "portfolio" },
+        { label: "Résumé", target: "resume" },
         { label: "Contact", target: "contact" }
     ];
 
     const navSource = `
-        <ul>
-            {{#each navItems}}
-                <li><a href="#{{target}}">{{label}}</a></li>
-            {{/each}}
-        </ul>
+        {{#each pages}}
+            <a href="#{{target}}">{{label}}</a> 
+        {{/each}}
     `;
 
     const navTemplate = Handlebars.compile(navSource);
-    navbar.innerHTML = navTemplate({ navItems });
+    navbar.innerHTML = navTemplate({ pages });
 });
