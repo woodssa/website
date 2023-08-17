@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const navSource = `
         {{#each pages}}
-            <a href="#{{target}}">{{label}}</a> 
+            <a href="{{target}}.html">{{label}}</a> 
         {{/each}}
     `;
 
