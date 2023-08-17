@@ -4,3 +4,28 @@ body {
     line-height: 1.75;
     background-color: #333;
 }
+
+.intro {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.tagline {
+    flex-basis: 18%;
+    text-align: right;
+    font-size: 36px;
+    text-align: right;
+    padding: 20px;
+    opacity: 1;
+    color: #f2f2f2;
+    font-weight: bold;
+    margin-right: 3%;
+}
+
+.memo {
+    flex-basis: 35%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
