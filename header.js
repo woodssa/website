@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Title
     const dynamicKeywords = [
-        "Industrial Engineer",
+        "Engineer",
         "Innovator",
         "Problem Solver"
     ];
@@ -21,6 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Title updated every 3 seconds
     setInterval(updateTitle, 3000);  
 
+    // Navigation Bar
     const navbar = document.getElementById("navbar");
 
     const pages = [
